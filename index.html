@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+
+    <!-- js -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google font -->
+    <link rel="stylesheet" href="CSS/poppins.css">
+    <link rel="stylesheet" href="CSS/Oswald.css">
+
+</head>
+
+<body>
+    <!-- Navbar --> 
+    <header class="header_wrapper bg-danger">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand"><img src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Mynav" aria-controls="Mynav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="Mynav">
+                  <ul class="navbar-nav text">
+                    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Rooms</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Service</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Team</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Price</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><button class="main_button btn btn-outline-dark rounded-pill">Book Now</button></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+
+
+    <div class="container-fluid p-0">
+        <div class="banner_wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/slider/slider1.webp" alt="swiper slide" class="img-fluid">
+                <div class="swiper-caption text-white">
+                  <h1 class="text-center">Dubai</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, fugit molestias a minima
+                    quo in quidem omnis dolorum maiores inventore pariatur quae libero repellendus? Aperiam
+                    facere possimus ullam qui cumque. lor
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="images/slider/slider2.webp" alt="swiper sildes" class="img-fluid">
+                <div class="swiper-caption">
+                  <h1 class="text-center">Dubai</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, fugit molestias a minima
+                    quo in quidem omnis dolorum maiores inventore pariatur quae libero repellendus? Aperiam
+                    facere possimus ullam qui cumque.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+      
+
+    <script src="JS/main.js"></script>
+
+
+    <div class="container booking_area">
+        <div class="row">
+            <div class="col-lg">
+                <input type="date" class="form-control" placeholder="date">
+            </div>
+
+            <div class="col-lg">
+                <input type="date" class="form-control" placeholder="date">
+            </div>
+
+            <div class="col-lg">
+                <select name="" id="" class="form-select">
+                    <option value="">Adults</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+            </div>
+
+            <div class="col-lg">
+                <select name="" id="" class="form-select">
+                    <option value="">Adults</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+            </div>
+            <div class="col-lg">
+                <input type="text" class="form-control" placeholder="Check Availablity">
+            </div>
+        </div>
+    </div>
+
+    <section class="room-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 align-items-center">
+                    <div class="room-caption">
+                        <h3 class="col-12">Welcome to <span class="col-12">Hotel <br> the heaven</span> of your weekend</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex dolore facilis quisquam, neque
+                            voluptatum harum nisi eveniet assumenda aspernatur illo sit odio necessitatibus eos debitis,
+                            natus animi tenetur ea suscipit? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Molestiae maxime ab minus, explicabo sapiente placeat sequi necessitatibus expedita
+                            voluptatibus deleniti.</p>
+                    </div>
+                    <button class="explore-button btn btn-white btn-outline-dark rounded-pill">Explore</button>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 mt-md-4 mt-sm-4 col-lg-6 ">
+                    <div class="room-space">
+                        <img src="images/blog/blog2.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="r-wrapper mt-4 mb-4">
+        <div class="container">
+            <div class="row">
+                <div class=" col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="room-item">
+                        <img src="images/room/room1.webp" alt="" class="img-fluid w-100">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis minima ipsam
+                                    veritatis
+                                    quia similique reprehenderit tempora sint voluptatibus numquam pariatur tenetur
+                                    deserunt
+                                    amet porro, vel facilis quas voluptate accusantium nihil!
+                                </p>
+                                <button class="explore btn btn-outline-primary rounded-pill">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="room-item">
+                        <img src="images/room/room2.webp" alt="" class="img-fluid w-100">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis minima ipsam
+                                    veritatis
+                                    quia similique reprehenderit tempora sint voluptatibus numquam pariatur tenetur
+                                    deserunt
+                                    amet porro, vel facilis quas voluptate accusantium nihil!
+                                </p>
+                                <button class="explore btn btn-outline-primary rounded-pill">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="room-item">
+                        <img src="images/room/room3.webp" alt="" class="img-fluid w-100">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis minima ipsam
+                                    veritatis
+                                    quia similique reprehenderit tempora sint voluptatibus numquam pariatur tenetur
+                                    deserunt
+                                    amet porro, vel facilis quas voluptate accusantium nihil!
+                                </p>
+                                <button class="explore btn btn-outline-primary rounded-pill">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="box-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="blank-img">
+                        <img src="images/counter-bg.webp" class="img-fluid w-100 h-25" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="gallery-wrapper mt-1 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 p-0 p-sm-0 p-md-0 p-lg-0 gallery-item m-0">
+                    <img src="images/gallery/1.webp" alt="" class="img-fluid w-100">
+                    <div class="Gallery-content"></div>
+                </div>
+                <div class="col-3 p-0 p-sm-0 p-md-0 p-lg-0 gallery-item">
+                    <img src="images/gallery/2.webp" alt="" class="img-fluid w-100">
+                    <div class="Gallery-content"></div>
+                </div>
+                <div class="col-3 p-0 p-sm-0 p-md-0 p-lg-0 gallery-item">
+                    <img src="images/gallery/3.webp" alt="" class="img-fluid w-100">
+                    <div class="Gallery-content"></div>
+                </div>
+                <div class="col-3 p-0 p-sm-0 p-md-0 p-lg-0 gallery-item">
+                    <img src="images/gallery/4.webp" alt="" class="img-fluid w-100">
+                    <div class="Gallery-content"></div>
+                </div>
+                <div class="col-6 p-0 p-sm-0 p-md-0 p-lg-0 gallery-item">
+                    <img src="images/gallery/5.webp" alt="" class="img-fluid w-100">
+                    <div class="Gallery-content"></div>
+                </div>
+                <div class="col-6 p-0 p-sm-0 p-md-0 p-lg-0 gallery-item">
+                    <img src="images/gallery/6.webp" alt="" class="img-fluid w-100">
+                    <div class="Gallery-content"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="card-wrapper">
+        <div class="container">
+            <div class="row row g-2">
+                <div class="card-1 col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatem illo aliquam. Amet
+                                velit, temporibus deleniti adipisci officiis, provident corrupti enim laudantium aperiam
+                                natus voluptatibus non, voluptas vero eos tempora.
+                            </p>
+                            <button class="btn btn-outline-dark rounded-pill">Go Somewhere</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" card-2 col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatem illo aliquam. Amet
+                                velit, temporibus deleniti adipisci officiis, provident corrupti enim laudantium aperiam
+                                natus voluptatibus non, voluptas vero eos tempora.
+                            </p>
+                            <button class="btn btn-outline-dark rounded-pill">Go Somewhere</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-3 col-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatem illo aliquam. Amet
+                                velit, temporibus deleniti adipisci officiis, provident corrupti enim laudantium aperiam
+                                natus voluptatibus non, voluptas vero eos tempora.
+                            </p>
+                            <button class="btn btn-outline-dark rounded-pill">Go Somewhere</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h3 class="footer text-center">Thanks for visiting Us</h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
